@@ -1,5 +1,5 @@
 # declaramos la frase a trabajar
-frase = "good game"
+frase = input("pon tu frase para volverla acronimo")
 # declaramos variable quitandole "de" y separando las palabras a frase
 phrase = (frase.replace('de', '')).split()
 # declaramos variable de texto
