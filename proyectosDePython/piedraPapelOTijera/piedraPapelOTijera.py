@@ -26,5 +26,8 @@ if entrada == "tijera" and salidaDeRobot == "piedra":
 # y aqui ponemos un condicional con el que ponemos que si entrada (usuario) es igual que la maqina poner empate
 if entrada == salidaDeRobot:
     print("empate")
+# ahora pongamos el caso que pongas mal el nombre de la jugada
+else:
+    print("no entiendo")
 # aqui pintamos en terminal que puso la maquina
 print(salidaDeRobot)
