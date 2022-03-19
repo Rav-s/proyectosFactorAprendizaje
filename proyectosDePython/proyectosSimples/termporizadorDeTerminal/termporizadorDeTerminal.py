@@ -1,6 +1,7 @@
 import time
 tDDV = int(input("¿de cuanto es timer requerido? (si es de horas pon 1, minutos 2 y segundos 3)solo puedes poner y tipo de dato"))
-tiempo = int(input("de cuanto tiempo es tu timer men?"))
+tiempo = float(input("de cuanto tiempo es tu timer men?"))
+
 if tDDV == 1:
     tiempo=tiempo * 3600
 if tDDV == 2:
