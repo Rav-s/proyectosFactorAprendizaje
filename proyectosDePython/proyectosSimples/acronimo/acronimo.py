@@ -8,3 +8,5 @@ acronimo = ""
 for word in phrase:
     acronimo = acronimo + word[0].upper()
 print(acronimo)
+lista = ["hola", "adios"]
+print(lista)

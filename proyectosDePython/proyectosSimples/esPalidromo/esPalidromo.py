@@ -1,7 +1,7 @@
 """ 
 este codigo NO es mio es de (nombre)Mateo García Álvarez
 (usuario de github) teo1997 
- """
+"""
 # se define una funcion que realice la verificacion de si la palabra se escribe igual al derecho y al revez 
 def palindromo(palabra):
     palabra = palabra.replace(' ', '') # el metodo repleace, remplaza una palabra por la otra 

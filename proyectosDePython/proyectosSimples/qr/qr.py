@@ -1,4 +1,3 @@
-from matplotlib.pyplot import fill
 import qrcode
 link = 'https://factoraprendizaje.wordpress.com'
 qr = qrcode.QRCode(version=1,box_size=10,border=5)
